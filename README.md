@@ -67,3 +67,11 @@ public class HelloWorldController : Controller
 Создали MovieGenreViewModel для списка фильмов и жанров.
 Добавили выпадающий список жанров (SelectList) в форму.
 Оптимизировали маршрутизацию (параметры searchString и movieGenre в URL).
+
+
+Добавили новое поле Rating в модель Movie.
+Обновили представления (Index, Create, Edit, Details, Delete) для отображения и редактирования рейтинга.
+Использовали миграции EF Core:
+Создали миграцию командой Add-Migration Rating.
+Применили изменения к БД через Update-Database.
+Обновили SeedData, добавив тестовые значения рейтинга.
