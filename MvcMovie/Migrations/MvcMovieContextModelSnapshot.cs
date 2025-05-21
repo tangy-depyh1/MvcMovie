@@ -41,7 +41,7 @@ namespace MvcMovie.Migrations
 
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("datetime2");
-
+                   
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
 
